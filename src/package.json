@@ -1,0 +1,34 @@
+{
+    "name": "chikeozulumba",
+    "version": "1.0.0",
+    "description": "Portfolio website for Chike Arthur Ozulumba",
+    "author": "Chike Ozulumba",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "precommit": "npm run lint"
+    },
+    "dependencies": {
+        "babel-plugin-module-resolver": "^3.1.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "cross-env": "^5.2.0",
+        "nuxt": "^2.0.0",
+        "typed.js": "^2.0.9"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0",
+        "babel-eslint": "^8.2.1",
+        "eslint": "^5.0.1",
+        "eslint-loader": "^2.0.0",
+        "eslint-plugin-vue": "^4.0.0",
+        "eslint-config-prettier": "^3.1.0",
+        "eslint-plugin-prettier": "2.6.2",
+        "prettier": "1.14.3"
+    }
+}
